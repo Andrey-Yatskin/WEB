@@ -20,7 +20,7 @@ success_message = {'success': True}
 
 @app.errorhandler(404)
 def user_not_found(e):
-    return render_template('user404.html'), 404
+    return render_template('404.html'), 404
 
 
 @app.errorhandler(404)
